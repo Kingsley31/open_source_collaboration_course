@@ -4,11 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fun out of the weekends </title>
     <style>
-*{
 
-background:cyan;
-color:black;
-}
 mark{
 background:red;
 color:grey;
@@ -23,6 +19,17 @@ position:absolute;
 div{
 position:relative;
 
+}
+textarea{
+margin:2px;
+overflow-y: auto;
+width:200px;
+
+}
+fieldset{
+
+    width:300px;
+    background:cyan;
 }
     </style>
 </head>
@@ -72,7 +79,18 @@ Hold the cup-hand to see the mapping..
   
 </iframe>
 </div>
-
+<form action=".C:\Users\HP\open_source_collaboration_course" method="post" enctype="multipart/form-data" target="blanck">
+    <fieldset>
+        <legend>comment box</legend>
+        <label for="fullname">enter your fullname:</label>
+    <input type="text" name="fullname" id="fullname" placeholder="enter ur name"><br/>
+    <label for="comment">your opinion:</label>
+<textarea name="comment" placeholder="say ur mind.." id="comment"></textarea>
+    <br/>
+<input type="submit" name="submit" value="submit">
+<input type="reset" name="reset" value="reset">
+</fieldset>
+</form>
 
 </body>
 
